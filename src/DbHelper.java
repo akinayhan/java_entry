@@ -1,7 +1,7 @@
 import java.sql.*;
 public class DbHelper {
     private String userName="root";
-    private String password="__";
+    private String password="....";
     private String dbUrl="jdbc:mysql://localhost:3306/world?useSSL=false&serverTimezone=UTC";
     
     public Connection getConnection()throws SQLException{
